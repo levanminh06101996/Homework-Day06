@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content-coffee{
+    
+}
+.wrapper {
+    width: 1408px;
+    margin: 0 auto;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    
+}
+
+.header-home {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    a{
+        font-size: 16px;
+        color: #000000;
+        font-family: roboto;
+    }    
+}
+
+
+.banner {
+    margin-bottom: 64px;
+}
+
+.content-about-us {
+    text-align: center;
+    span {
+        font-size: 16px;
+        line-height: 18.75px;
+        color: #BB7E52;
+        font-weight: 400;
+    }
+    h2 {
+    margin: 0px;
+    margin-top: 12px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.5px;
+    text-align: center;
+    }
+
+}
+
+
+.content-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+
+}
+
+.content-main-group:nth-child(even) {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.content-main {
+    margin-top: 32px;
+}
+
+.content-main-group {
+    
+
+    p{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 42px;
+        font-family: roboto ,sans-serif;
+    
+    }
+    span {
+        font-size: 16px;
+        line-height: 18.75px;
+        color: #BB7E52;
+    }
+}
+.content-main-text {
+    height: 448px;
+    text-align: center;
+    line-height: 448px;
+}
+
+.text-content {
+   display: inline-block;
+   line-height: normal;
+   
+   p{
+    margin-top: 12px;
+   }
+    
+}
+
+.content-img {
+    margin-top: 96px;
+    margin-bottom: 96px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.footer-contact {
+    input{
+        width: 204px;
+        height: 39px;
+        border: 1px;
+        gap: 10px;
+    }
+    span{
+        background-color: #3A3A3A;
+        color: white;
+        width: 79px;
+        height: 19px;
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+

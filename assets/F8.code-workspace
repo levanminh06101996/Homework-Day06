@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../F8"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Homework-day06"
+	}
+}
