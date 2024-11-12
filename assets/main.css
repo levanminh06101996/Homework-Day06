@@ -122,8 +122,8 @@ footer {
     input{
         width: 204px;
         height: 39px;
-        border: 1px;
-        gap: 10px;
+        box-shadow: #3A3A3A 1px;
+        
     }
     span{
         background-color: #3A3A3A;
@@ -131,6 +131,7 @@ footer {
         width: 79px;
         height: 19px;
         font-size: 16px;
+        padding: 10px;
     }
 }
 
